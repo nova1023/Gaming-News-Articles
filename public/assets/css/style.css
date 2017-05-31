@@ -18,7 +18,12 @@ body {
 }
 
 div.panel-heading.article-panel {
-	background: rgba(138,191,124, .5);
+	background-color: grey;
+	color: white;
+}
+
+div.panel-default {
+	border: none;
 }
 
 .footer {
