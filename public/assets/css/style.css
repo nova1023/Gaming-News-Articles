@@ -1,0 +1,45 @@
+body {
+	margin-top: 50px;
+	background: grey;
+}
+
+#main-header{
+	color: white;
+	position: relative;
+}
+
+.all-comments{
+	max-height: 50vh;
+	overflow: auto;
+}
+
+#scrape-div{
+	margin-bottom: 20px;
+}
+
+div.panel-heading.article-panel {
+	background: rgba(138,191,124, .5);
+}
+
+.footer {
+	color: black;
+	text-align: center;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+.btn-lg{
+	background-color: #31b0d5;
+	color: black;
+}
+
+.delete-button {
+	background-color: red;
+}
+
+.glyphicon {
+	margin-right: 2px;
+	margin-top: 4px;
+}
