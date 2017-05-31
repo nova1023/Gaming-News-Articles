@@ -35,7 +35,7 @@ if(process.env.MONGODB_URI)
 }
 else
 {
-	mongoose.connect("mongodb://localhost/kotakuarticles");
+	mongoose.connect("mongodb://heroku_cxxfljw8:rq9dkdg2hd9ttkftemk7qh7r68@ds157621.mlab.com:57621/heroku_cxxfljw8");
 }	
 
 var db = mongoose.connection;
